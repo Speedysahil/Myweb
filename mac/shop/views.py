@@ -31,7 +31,7 @@ def contact(request):
 
         name =request.POST.get('name','')
 
-        email = request.POST.get('email', '')
+        email = request.POST.get('email', '') #aman
         phone = request.POST.get('phone', '')
         desc = request.POST.get('desc', '')
 
